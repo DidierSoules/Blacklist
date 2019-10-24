@@ -1,0 +1,19 @@
+.body {
+    background-color: #F6F6F6;
+    padding-top: 14px;
+}
+.main-container {
+    max-width: 1200px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
