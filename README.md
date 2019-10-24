@@ -2,6 +2,7 @@
 - Este proyecto brinda la posibilidad de blacklistear los productos desde el backend usando NodeJS en Express. Mostrando el resultado en el frontend usando ReactJS.
 
 Funcionalidades:
+----------------
 
 - Desde el backend o usando Postman podemos hacer un CRUD de los productos.
 
@@ -23,6 +24,7 @@ Funcionalidades:
     http://localhost:3000/products/id - patch: enable: true/false un producto de la lista.
 
 Pasos a seguir para correr las aplicaciones localmente:
+-------------------------------------------------------
 
 - Descargar el repositorio de GitHub.
 - En la terminal, ir a la carpeta /backend y ejecutar el comando 'npm install'.
@@ -31,6 +33,7 @@ Pasos a seguir para correr las aplicaciones localmente:
 - Finalmente, se abrira una pestaña en el navegador con el endpoint /products el cual muestra la vista de los productos. Al hacerle click a un producto sera redirecionado al endpoint /products/id.
 
 Lo que no logre hacer.
+----------------------
 
 - No logre que se renderize /products con la condición que muestre producto si esta enable(true/false) y si no lo esta que no lo muestre.
 Intente hacerlo usando un conditional render adentro de la funcion .map que uso para recorer los elementos de la Array, la cual contiene los datos de mi API. 
@@ -45,7 +48,8 @@ render() {
     )}
 
 Así es como tenía pensado resolverlo, intente de varias formas similares pero no funcionaron.
----------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
 
 - No logre que al hacer click en cualquier producto me lleve al endpoint (/products/{id}) y me muestre el producto correspondiente. Pense en hacerlo con un <Link></Link> adentro de la funcion .map para que me cree un 'Link' por cada producto y que reconozca el id del mismo.
 
